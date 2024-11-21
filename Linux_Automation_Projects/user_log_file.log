@@ -1,0 +1,3 @@
+2024-11-22 01:32:30,737:INFO:Create || USER 'user18' || Status: Success || User created with new home directory /home/user18
+2024-11-22 01:32:39,085:INFO:Backup || USER 'user18' || Status: Success || Backup saved to /home/user18_backup_22-11-24
+2024-11-22 01:32:39,212:INFO:Delete || USER 'user18' || Status: Success || User deleted successfully.
