@@ -231,6 +231,7 @@ def remove_user_from_group(username,groupname):
         print(f"Failed to remove user from group: {e}")
 
 
+
 # Main menu for user management
 def main():
     #clear_log_file()   # Clear log file at the start of each run
@@ -250,13 +251,16 @@ def main():
         if choice == "1":
             username = input("Enter username to create: ")
             create_user(username)
+
         elif choice == '2':
             username = input("Enter username to delete: ")
             delete_user(username)
+
         elif choice == '3':
             username = input("Enter username to update: ")
             new_username = input("Enter new username: ")
             update_user(username,new_username)
+
         elif choice == '4':
             list_users()
 
@@ -279,14 +283,17 @@ def main():
                     continue  # This will keep asking until a valid input is given
 
             add_user_to_group(username, groupname)
+
         elif choice == '6':
             username = input("Enter username to remove from group: ")
             groupname = input("Enter groupname: ")
             remove_user_from_group(username,groupname)
+
         elif choice == '7':
             print("Exiting User Management System")
             print("Thank You!!")
             break
+
         else:
             print("Invalid choice, please try again.")
 
