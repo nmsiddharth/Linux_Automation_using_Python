@@ -9,6 +9,6 @@ def get_pwd():
 get_pwd()
 
 # Current working Directory in Linux :
-#  /mnt/d/SIDDU/Technical/Python/Python_Pycharm/Automating_Linux_Tasks
+#  /mnt/d/SIDDU/Technical/Python/Python_Pycharm/Python_Automation
 
 # If we directly type filename ,when creating a file or directory, it stores in above location
